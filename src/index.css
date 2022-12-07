@@ -1,0 +1,60 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 50px;
+  max-width: 306px;
+  margin: 200px auto;
+}
+
+.form__el {
+  display: flex;
+  gap: 20px;
+}
+
+.form__labels {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-weight: 600;
+}
+
+.form__label:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.form__inputs {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+.form__input:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.add {
+  display: flex;
+  flex-direction: column;
+}
+
+.add__input {
+  margin-bottom: 20px;
+  width: 200px;
+  box-sizing: border-box;
+}
+
+.add__btn {
+  width: fit-content;
+  align-self: flex-end;
+}
+
+.show-params {
+  display: flex;
+  align-self: flex-end;
+  flex-direction: column;
+}
+
+.show-params__btn {
+  margin-bottom: 20px;
+}
